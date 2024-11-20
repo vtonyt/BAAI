@@ -1,0 +1,58 @@
+---
+title: "Explonatory Data Analzsis"
+author: "Brian"
+format: html
+---
+
+## loead package
+
+```{python}
+import pandas as pd
+```
+
+## Load Dataset from smoker.csv file
+
+```{python}
+df = pd.read_csv('smoker.csv')
+```
+
+## Check dimension of dataset
+
+```{python}
+df.shape
+```
+
+## Check detail of dataset(cols, rows, )
+```{python}
+df.info()
+```
+
+## Check first five rows
+```{python}
+df.head()
+
+```
+
+## Check last five rows
+
+```{python}
+df.tail()
+```
+
+## Calculate sum of treatment collum
+
+```{python}
+df["treatment"].sum()
+```
+
+## Create a desciptive statistics 
+
+```{python}
+df.describe()
+```
+
+## Count of unique values in outcome column
+
+```{python}
+df["outcome"].nunique()
+```
