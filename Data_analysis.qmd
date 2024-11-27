@@ -1,0 +1,20 @@
+---
+title: "Data Analysis"
+author: 'Vinh Tony Tran'
+institute: 'University of Muenster'
+number-sections: true
+toc: true
+format: html
+---
+
+## Key Points
+
+- Data loading
+- Data inspection
+  - Structure
+  - Value
+- Data cleaning
+  - Dealing with missing data
+  - Detecting outliers
+- Data transformation
+  - Encoding
